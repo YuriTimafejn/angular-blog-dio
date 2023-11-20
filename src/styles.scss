@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import './collors.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-color: $background;
+    color: $font-color;
+}
