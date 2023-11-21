@@ -1,0 +1,23 @@
+@import '../../../collors.scss';
+
+* {
+    color: $font-color;
+    background-color: $background;
+}
+
+.banner {
+    background: url('../../../assets/images/bg-banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100vw;
+}
+
+.banner-title {
+    font-size: medium;
+    padding: 1rem;
+}
