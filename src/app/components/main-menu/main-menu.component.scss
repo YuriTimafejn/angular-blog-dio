@@ -1,0 +1,46 @@
+@import '../../../collors.scss';
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        display: inline;
+        float: left;
+
+        a {
+            display: block;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: $font-color;
+        }
+    }
+
+    li:hover {
+        background-color: $background-footer;
+
+        a:hover {
+            filter: invert(100%);
+        }
+    }
+}
