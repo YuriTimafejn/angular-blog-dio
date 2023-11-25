@@ -1,0 +1,46 @@
+@import '../../../collors.scss';
+
+.footer {
+    display:block;
+    color: $white-font;
+    background-color: $background-footer;
+    height: 300px;
+
+    &_subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1em 0 4em 0;
+    }
+
+    &_rights {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: auto;
+    }
+}
+
+.div_input {
+    border: 2px solid $white-font;
+    margin: 0;
+}
+
+.btn {
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    color: $white-font;
+    background-color: $background-footer;
+    margin: 0;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+.input-subcribe {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
