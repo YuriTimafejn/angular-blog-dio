@@ -1,0 +1,53 @@
+@import '../../../collors.scss';
+
+.card {
+    border: none;
+    width: 250px;
+    height: 500px;
+    margin: 0 10px;
+
+    .image {
+        height: 50%;
+    }
+
+    .content {
+        border: 1px solid grey;
+        .autor {
+            font-size: smaller;
+            color: grey;
+            padding-top: 3px;
+        }
+
+        .post {
+            padding: 5px;
+
+            .title {
+                text-align: justify;
+                text-indent: 5%;
+            }
+
+            .abstract {
+                text-align: justify;
+                text-indent: 1rem;
+            }
+
+            .separator {
+                border: 0;
+                border-width: 0 0 10px;
+                margin: 0;
+            }
+
+            .status {
+                display: flex;
+                flex-direction: row;
+                color: grey;
+
+                .like {
+                    width: 15px;
+                    height: 15px;
+                    padding: 1px;
+                }
+            }
+        }
+    }
+}

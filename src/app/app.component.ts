@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { MainMenuComponent } from './components/main-menu/main-menu.component';
-import { MainBannerComponent } from './components/main-banner/main-banner.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
 
 
 @Component({
@@ -12,9 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     CommonModule,
     RouterOutlet,
-    MainMenuComponent,
-    MainBannerComponent,
-    FooterComponent,
+    HomeComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
