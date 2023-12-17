@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -9,5 +9,14 @@ import { CommonModule } from '@angular/common';
   styleUrl: './card.component.scss'
 })
 export class CardComponent {
-
+  @Input()
+  cover: string = '';
+  @Input()
+  titlePost: string = '';
+  @Input()
+  textPost: string = '';
+  @Input()
+  authorPost: string = '';
+  @Input()
+  countLikes: number = 0;
 }

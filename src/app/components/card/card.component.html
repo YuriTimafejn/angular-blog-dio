@@ -1,20 +1,20 @@
 <div class="card">
     <div class="image">
-        <img src="../../../assets/images/writing.webp" alt="">
+        <img src="{{ cover}}" alt="">
     </div>
     <div class="content">
         <div class="autor">
-            <span>Autor</span>
+            <span>{{authorPost}}</span>
         </div>
         <div class="post">
-            <h2 class="title">Title</h2>
-            <p class="abstract">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam eligendi ad veritatis facilis et. Eligendi tenetur officiis velit ad, similique ipsam architecto minus eum fugit nesciunt ex eius! In?</p>
+            <h2 class="title">{{ titlePost }}</h2>
+            <p class="abstract">{{ textPost }}</p>
         </div>
         <hr class="separator">
         <div class="status">
-            <div>
+            <!-- <div>
                 Comentários
-            </div>            
+            </div>             -->
             <div class="like">
                 <img src="../../../assets/images/heart_empty.png" alt="curtido">
             </div>
